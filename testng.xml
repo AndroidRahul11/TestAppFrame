@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/rahul.vyavahare/Documents/TestAppFramework/TestAppFrame">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="platformVersion" value="12"/>
+        <parameter name="deviceName" value="rahulemu"/>
+        <classes>
+            <class name="qa.mobile.Test1"/>
+        </classes>
+    </test>
+</suite>
